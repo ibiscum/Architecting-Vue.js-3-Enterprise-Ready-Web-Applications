@@ -10,19 +10,19 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "storybook": "^6.4.22",
+    "storybook": "^10.0.5",
     "vue": "^3.2.25",
-    "vue-i18n": "^9.1.9"
+    "vue-i18n": "^9.14.5"
   },
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@storybook/addon-actions": "^6.4.22",
-    "@storybook/addon-essentials": "^6.4.22",
+    "@storybook/addon-essentials": "^8.6.14",
     "@storybook/addon-links": "^6.4.22",
-    "@storybook/vue3": "^6.4.22",
-    "@vitejs/plugin-vue": "^2.3.1",
+    "@storybook/vue3": "^10.0.5",
+    "@vitejs/plugin-vue": "^6.0.1",
     "babel-loader": "^8.2.4",
-    "vite": "^2.9.2",
+    "vite": "^7.2.1",
     "vue-loader": "^16.8.3"
   }
 }
