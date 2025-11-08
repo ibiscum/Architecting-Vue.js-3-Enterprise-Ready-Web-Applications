@@ -76,7 +76,7 @@
 </template>
 
 <script>
-import MyHeader from "../organisms/Header";
+import MyHeader from "../organisms/Header.vue";
 
 export default {
   name: "my-page",

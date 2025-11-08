@@ -2,31 +2,37 @@
   "name": "architecting-vue",
   "private": true,
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@apollo/client": "^3.6.4",
-    "@vue/apollo-composable": "^4.0.0-alpha.17",
-    "graphql": "^16.5.0",
+    "@vue/apollo-composable": "^4.2.2",
+    "graphql": "^16.12.0",
     "graphql-tag": "^2.12.6",
-    "storybook": "^6.4.22",
-    "vue": "^3.2.25",
-    "vue-i18n": "^9.1.9"
+    "storybook": "^10.0.6",
+    "vue": "^3.5.24",
+    "vue-i18n": "^11.1.12"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.9",
-    "@storybook/addon-actions": "^6.4.22",
-    "@storybook/addon-essentials": "^6.4.22",
-    "@storybook/addon-links": "^6.4.22",
-    "@storybook/vue3": "^6.4.22",
-    "@vitejs/plugin-vue": "^2.3.1",
-    "babel-loader": "^8.2.4",
-    "vite": "^2.9.2",
-    "vue-loader": "^16.8.3"
+    "@babel/core": "^7.28.5",
+    "@chromatic-com/storybook": "^4.1.2",
+    "@storybook/addon-a11y": "^10.0.6",
+    "@storybook/addon-docs": "^10.0.6",
+    "@storybook/addon-onboarding": "^10.0.6",
+    "@storybook/addon-vitest": "^10.0.6",
+    "@storybook/vue3-vite": "^10.0.6",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vitest/browser-playwright": "^4.0.8",
+    "@vitest/coverage-v8": "^4.0.8",
+    "babel-loader": "^10.0.0",
+    "playwright": "^1.56.1",
+    "vite": "^7.2.2",
+    "vitest": "^4.0.8",
+    "vue-loader": "^17.4.2"
   }
 }
